@@ -195,7 +195,7 @@ def update_choropleth_interval(n, interval_disabled: bool, year: str, battery_ca
             year: year to display on dcc.Slider component.
     '''
     if not interval_disabled:
-        years = list(range(2016, 2023))  # TODO: change to select years in df_revenues_spreads
+        years = list(range(2016, 2024))  # TODO: change to select years in df_revenues_spreads
         index = years.index(year)
         index = (index + 1) % len(years)
         year = years[index]
