@@ -1,0 +1,8 @@
+dash==2.13.0
+dash_bootstrap_components==1.5.0
+entsoe_py==0.5.10
+numpy==1.24.2
+pandas==2.0.0
+plotly==5.15.0
+geopandas==0.14.0
+geojson-rewind==1.0.3

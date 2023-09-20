@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "VattenfallHall regular";
+    src: url("fonts/VattenfallHall-Regular.ttf");
+}
+
+@font-face {
+    font-family: "VattenfallHall medium";
+    src: url("fonts/VattenfallHall-Medium.ttf");
+}
+
+@font-face {
+    font-family: "VattenfallHall bold";
+    src: url("fonts/VattenfallHall-Bold.ttf");
+}
+
+body {
+    font-family: "VattenfallHall regular";
+    font-size: 70%;
+}
+
+mark {
+    background: rgba(0, 116, 217, 0.3);
+}
+
+
+h1 {
+    font-family: "VattenfallHall medium";
+    color: rgb(48, 48, 48);
+    font-size: 150%;
+}
+
+h2 {
+    font-family: "VattenfallHall bold";
+    color: rgb(48, 48, 48);
+    font-size: 220%;
+}
+
+h3 {
+    font-family: "VattenfallHall regular";
+    color: rgb(48, 48, 48);
+    font-size: 150%;
+}
+
+.radio_items {
+    font-size: 18px;
+    width: 350%;
+}
