@@ -68,7 +68,7 @@ app.layout = dbc.Container(
                         children="Value of performing day ahead EA with batteries in Europe",
                     ),
                     html.Br(),
-                    dcc.Interval(id="animate", disabled=True, interval=3500)
+                    dcc.Interval(id="animate", disabled=True, interval=4000)
                 ]),
                 dbc.Col([
                         html.Img(
